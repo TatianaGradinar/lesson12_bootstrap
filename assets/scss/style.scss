@@ -1,0 +1,39 @@
+@use "../../libs/normalize.css/normalize.scss";
+
+.header {
+  top: 0;
+  right: 0;
+  left: 0;
+  max-height: 80px;
+  z-index: 10;
+}
+
+.nav-link {
+  color: #000000;
+}
+
+.active {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: #218d1d;
+}
+
+.dropdown-item {
+  color: rgb(0, 0, 0);
+}
+
+.main {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: max-content;
+  z-index: 10;
+}
